@@ -9,6 +9,17 @@ carte, import des solutions FUTBIN dans les DCE avec achat des joueurs manquants
 > EA peut restreindre l'accès au marché des transferts (soft ban), demander des captchas, voire bannir le compte.
 > Utilise ce script à tes risques ; les auteurs ne sont pas responsables d'une sanction sur ton compte.
 
+> **Audited fork (2026-09-27).** This is [AMINE1921/MagicBuyer-UT](https://github.com/AMINE1921/MagicBuyer-UT) v5.1.1
+> with the Tampermonkey auto-update lines (`@updateURL` / `@downloadURL`) removed, so the installed script stays
+> pinned to the version that was reviewed. Review result: the script talks only to EA (the web app's own
+> functions), FUTBIN (price lookups) and, only if you paste your own webhook or bot token in the settings,
+> Discord / Telegram. No cookie or session reading, no obfuscation, no code downloaded at runtime. The upstream
+> release asset was byte-identical to `dist/fut-auto-buyer.user.js` (sha256 `4e8dabbf…b61069`) before this edit.
+>
+> **Install:** open the Tampermonkey dashboard, click **+**, paste the contents of
+> [`dist/fut-auto-buyer.user.js`](dist/fut-auto-buyer.user.js) over the template, save. The UI is in French.
+> Use a throwaway EA account; automation violates EA's terms and can get the account banned.
+
 ## Installation
 
 1. Installe [Tampermonkey](https://www.tampermonkey.net/) sur Chrome, Edge ou Brave.

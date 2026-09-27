@@ -20,6 +20,4 @@
 // @connect     discord.com
 // @connect     discordapp.com
 // @connect     api.telegram.org
-// @updateURL   https://github.com/AMINE1921/MagicBuyer-UT/releases/latest/download/fut-auto-buyer.user.js
-// @downloadURL https://github.com/AMINE1921/MagicBuyer-UT/releases/latest/download/fut-auto-buyer.user.js
 // ==/UserScript==

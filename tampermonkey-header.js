@@ -22,9 +22,5 @@ module.exports = {
       "discordapp.com",
       "api.telegram.org",
     ],
-    updateURL:
-      "https://github.com/AMINE1921/MagicBuyer-UT/releases/latest/download/fut-auto-buyer.user.js",
-    downloadURL:
-      "https://github.com/AMINE1921/MagicBuyer-UT/releases/latest/download/fut-auto-buyer.user.js",
   },
 };
